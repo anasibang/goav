@@ -105,7 +105,7 @@ func AvformatLicense() string {
 
 //Initialize libavformat and register all the muxers, demuxers and protocols.
 func AvRegisterAll() {
-	C.av_register_all()
+	// C.av_register_all()
 }
 
 //Do global initialization of network components.
